@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# updatemem v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# 
+# Start of session at: Wed Jul 29 17:58:22 2020
+# Process ID: 7796
+# Current directory: c:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/SDK/2017.3/scripts/updatemem/main.tcl -notrace -tclargs -meminfo C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.sdk/system_wrapper_hw_platform_0/system_wrapper.mmi -data C:/Xilinx/SDK/2017.3/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc system_i/microblaze_0 -bit C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.sdk/system_wrapper_hw_platform_0/system_wrapper.bit -out C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.sdk/system_wrapper_hw_platform_0/download.bit -force
+# Log file: c:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/updatemem.log
+# Journal file: c:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/SDK/2017.3/scripts/updatemem/main.tcl -notrace
+ Loading bitfile C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.sdk/system_wrapper_hw_platform_0/system_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.sdk/system_wrapper_hw_platform_0/download.bit...
+  update_mem: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 511.328 ; gain = 457.801
+INFO: [Common 17-206] Exiting updatemem at Wed Jul 29 17:58:32 2020...
