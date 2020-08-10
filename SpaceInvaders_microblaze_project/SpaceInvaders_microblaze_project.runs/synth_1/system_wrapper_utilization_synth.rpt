@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
-| Date         : Thu Jul 30 12:47:57 2020
-| Host         : DESKTOP-GG9V6KE running 64-bit major release  (build 9200)
+| Date         : Sat Aug  8 14:03:13 2020
+| Host         : DESKTOP-UN2R8U1 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
 | Design       : system_wrapper
 | Device       : 7a35tcpg236-1

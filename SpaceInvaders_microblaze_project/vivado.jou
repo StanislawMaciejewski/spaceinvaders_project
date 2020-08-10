@@ -2,153 +2,41 @@
 # Vivado v2017.3 (64-bit)
 # SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
 # IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
-# Start of session at: Wed Jul 29 16:49:17 2020
-# Process ID: 10380
-# Current directory: C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22928 C:\Projekt\spaceinvaders_project\SpaceInvaders_microblaze_project\SpaceInvaders_microblaze_project.xpr
-# Log file: C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/vivado.log
-# Journal file: C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project\vivado.jou
+# Start of session at: Sat Aug  8 13:15:53 2020
+# Process ID: 12376
+# Current directory: C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1520 C:\Users\ANNA\Desktop\projekt cyfra\spaceinvaders_project\SpaceInvaders_microblaze_project\SpaceInvaders_microblaze_project.xpr
+# Log file: C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/vivado.log
+# Journal file: C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.xpr
+open_project {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.xpr}
 update_compile_order -fileset sources_1
-open_bd_design {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd}
-startgroup
-create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0
-endgroup
-startgroup
-apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/microblaze_0 (Periph)" intc_ip "/microblaze_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins axi_gpio_0/S_AXI]
-apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "dip_switches_16bits ( 16 Switches ) " }  [get_bd_intf_pins axi_gpio_0/GPIO]
-endgroup
-startgroup
-create_bd_cell -type ip -vlnv xilinx.com:ip:dp_rx_subsystem:2.1 dp_rx_subsystem_0
-endgroup
-startgroup
-create_bd_cell -type ip -vlnv xilinx.com:ip:dp_tx_subsystem:2.1 dp_tx_subsystem_0
-endgroup
-report_ip_status -name ip_status 
-delete_bd_objs [get_bd_cells dp_rx_subsystem_0]
-delete_bd_objs [get_bd_cells dp_tx_subsystem_0]
-report_ip_status -name ip_status 
-validate_bd_design
-save_bd_design
+open_bd_design {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd}
+file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new
+file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new
+file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new
+file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new
+file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new
+file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new
+file mkdir {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new}
+close [ open {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_v1_0.v} w ]
+add_files {{C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_v1_0.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_background.v} w ]
+add_files {{C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_background.v}}
+close [ open {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/MicroBlaze_processor_wrapper.v} w ]
+add_files {{C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/MicroBlaze_processor_wrapper.v}}
+close [ open {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_timing.v} w ]
+add_files {{C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_timing.v}}
+close [ open {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v} w ]
+add_files {{C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_draw_objects.v} w ]
+add_files {{C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_draw_objects.v}}
+update_compile_order -fileset sources_1
 reset_run synth_1
-reset_run system_dlmb_bram_if_cntlr_0_synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-wait_on_run impl_1
-open_run impl_1
-open_hw
-connect_hw_server -url localhost:3121
-current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183795557A]
-set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183795557A]
-open_hw_target
-set_property PROGRAM.FILE {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7a35t_0]
-current_hw_device [get_hw_devices xc7a35t_0]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
-launch_sdk -workspace C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.sdk -hwspec C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.sdk/system_wrapper.hdf
-launch_sdk -workspace C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.sdk -hwspec C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.sdk/system_wrapper.hdf
-close_hw
-close_design
-open_bd_design {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd}
-open_bd_design {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd}
-create_bd_cell -type ip -vlnv xilinx.com:ip:axis_interconnect:2.1 axis_interconnect_0
-create_bd_cell -type ip -vlnv xilinx.com:ip:dp_rx_subsystem:2.1 dp_rx_subsystem_0
-create_bd_cell -type ip -vlnv xilinx.com:ip:dp_tx_subsystem:2.1 dp_tx_subsystem_0
-apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config {Clk "/clk_wiz_0/clk_out1 (100 MHz)" }  [get_bd_pins axis_interconnect_0/ACLK]
-set_property location {5 1096 559} [get_bd_cells dp_tx_subsystem_0]
-set_property location {4 1174 650} [get_bd_cells dp_rx_subsystem_0]
-delete_bd_objs [get_bd_cells axis_interconnect_0]
-delete_bd_objs [get_bd_cells dp_tx_subsystem_0]
-delete_bd_objs [get_bd_cells dp_rx_subsystem_0]
-cd C:/Projekt/spaceinvaders_project/Basys-3-GPIO/proj
-source ./create_project.tcl
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-wait_on_run impl_1
-open_run impl_1
-open_hw
-connect_hw_server -url localhost:3121
-current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183795557A]
-set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183795557A]
-open_hw_target
-set_property PROGRAM.FILE {C:/Projekt/spaceinvaders_project/Basys-3-GPIO/proj/GPIO.runs/impl_1/GPIO_demo.bit} [get_hw_devices xc7a35t_0]
-current_hw_device [get_hw_devices xc7a35t_0]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {C:/Projekt/spaceinvaders_project/Basys-3-GPIO/proj/GPIO.runs/impl_1/GPIO_demo.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-close_project
-add_files -fileset constrs_1 -norecurse C:/Projekt/spaceinvaders_project/Basys3_Master.xdc
-import_files -fileset constrs_1 C:/Projekt/spaceinvaders_project/Basys3_Master.xdc
-add_files -fileset constrs_1 -norecurse C:/Projekt/spaceinvaders_project/vga_example.xdc
-import_files -fileset constrs_1 C:/Projekt/spaceinvaders_project/vga_example.xdc
-save_bd_design
-reset_run synth_1
-launch_runs synth_1 -jobs 4
+launch_runs synth_1 -jobs 2
 wait_on_run synth_1
-open_bd_design {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd}
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-wait_on_run synth_1
-launch_runs impl_1 -jobs 4
-wait_on_run impl_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-wait_on_run impl_1
-open_run impl_1
-open_hw
-connect_hw_server -url localhost:3121
-current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183795557A]
-set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183795557A]
-open_hw_target
-set_property PROGRAM.FILE {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7a35t_0]
-current_hw_device [get_hw_devices xc7a35t_0]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/impl_1/system_wrapper.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-close_hw
-close_design
-open_bd_design {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd}
-open_bd_design {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd}
-add_files -norecurse -scan_for_includes {C:/Projekt/spaceinvaders_project/MouseCtl.vhd C:/Projekt/spaceinvaders_project/MouseDisplay.vhd C:/Projekt/spaceinvaders_project/Ps2Interface.vhd}
-import_files -norecurse {C:/Projekt/spaceinvaders_project/MouseCtl.vhd C:/Projekt/spaceinvaders_project/MouseDisplay.vhd C:/Projekt/spaceinvaders_project/Ps2Interface.vhd}
-update_compile_order -fileset sources_1
-open_bd_design {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd}
-startgroup
-create_bd_cell -type ip -vlnv xilinx.com:ip:dp_rx_subsystem:2.1 dp_rx_subsystem_0
-endgroup
-delete_bd_objs [get_bd_cells dp_rx_subsystem_0]
-open_bd_design {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd}
-create_bd_design "design_1"
-generate_target all [get_files  C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/design_1/design_1.bd]
-export_ip_user_files -of_objects [get_files C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
-create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/design_1/design_1.bd]
-export_simulation -of_objects [get_files C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/design_1/design_1.bd] -directory C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.ip_user_files/sim_scripts -ip_user_files_dir C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.ip_user_files -ipstatic_source_dir C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.cache/compile_simlib/modelsim} {questa=C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.cache/compile_simlib/questa} {riviera=C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.cache/compile_simlib/riviera} {activehdl=C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
-update_compile_order -fileset sources_1
-current_bd_design [get_bd_designs system]
-current_bd_design [get_bd_designs design_1]
-export_ip_user_files -of_objects  [get_files C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/imports/spaceinvaders_project/MouseCtl.vhd] -no_script -reset -force -quiet
-remove_files  C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/imports/spaceinvaders_project/MouseCtl.vhd
-export_ip_user_files -of_objects  [get_files C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/imports/spaceinvaders_project/Ps2Interface.vhd] -no_script -reset -force -quiet
-remove_files  C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/imports/spaceinvaders_project/Ps2Interface.vhd
-export_ip_user_files -of_objects  [get_files C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/design_1/design_1.bd] -no_script -reset -force -quiet
-remove_files  C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/design_1/design_1.bd
-export_ip_user_files -of_objects  [get_files C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/imports/spaceinvaders_project/MouseDisplay.vhd] -no_script -reset -force -quiet
-remove_files  C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/imports/spaceinvaders_project/MouseDisplay.vhd
-open_bd_design {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd}
-open_bd_design {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd}
-open_bd_design {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd}
-save_bd_design
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-wait_on_run synth_1
-open_bd_design {C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd}
-launch_runs impl_1 -jobs 4
-wait_on_run impl_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
+launch_runs impl_1 -jobs 2
 wait_on_run impl_1

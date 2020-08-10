@@ -1,0 +1,1045 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:22 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 12376
+License: Customer
+
+Current time: 	Sat Aug 08 13:16:21 CEST 2020
+Time zone: 	Central European Time (Europe/Belgrade)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1440x960
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 15 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/vivado/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	D:/vivado/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	ANNA
+User home directory: C:/Users/ANNA
+User working directory: C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project
+User country: 	PL
+User language: 	pl
+User locale: 	pl_PL
+
+RDI_BASEROOT: D:/vivado/Vivado
+HDI_APPROOT: D:/vivado/Vivado/2017.3
+RDI_DATADIR: D:/vivado/Vivado/2017.3/data
+RDI_BINDIR: D:/vivado/Vivado/2017.3/bin
+
+User preferences location: C:/Users/ANNA/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/ANNA/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/ANNA/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	D:/vivado/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/vivado.log
+Vivado journal file location: 	C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/vivado.jou
+Engine tmp dir: 	C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/.Xil/Vivado-12376-DESKTOP-UN2R8U1
+
+GUI allocated memory:	177 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 518 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 48 MB (+48237kb) [00:00:12]
+// [Engine Memory]: 480 MB (+351447kb) [00:00:12]
+// bs (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\ANNA\Desktop\projekt cyfra\spaceinvaders_project\SpaceInvaders_microblaze_project\SpaceInvaders_microblaze_project.xpr. Version: Vivado v2017.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 61 MB (+11168kb) [00:00:16]
+// [Engine Memory]: 531 MB (+28452kb) [00:00:16]
+// HMemoryUtils.trashcanNow. Engine heap size: 551 MB. GUI used memory: 34 MB. Current time: 8/8/20 1:16:24 PM CEST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 623 MB (+68791kb) [00:00:21]
+// Tcl Message: open_project {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project' INFO: [Project 1-313] Project file moved from 'C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2017.3/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:15 . Memory (MB): peak = 847.715 ; gain = 136.656 
+// Project name: SpaceInvaders_microblaze_project; location: C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a (cl): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 66 MB (+1542kb) [00:00:33]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1); // B (D, cl)
+// PAPropertyPanels.initPanels (system.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v)]", 3, true); // B (D, cl) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v)]", 3); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+// [GUI Memory]: 72 MB (+2382kb) [00:00:59]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), microblaze_0 : system_microblaze_0_0 (system_microblaze_0_0.xci)]", 8, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), microblaze_0 : system_microblaze_0_0 (system_microblaze_0_0.xci)]", 8, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), microblaze_0 : system_microblaze_0_0 (system_microblaze_0_0.xci)]", 8, false, false, false, false, false, true); // B (D, cl) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// HOptionPane Warning: ''system_microblaze_0_0.xci' IP is part of a block design. Please open the block design 'system.bd' and customize the IP. (Re-customize IP)'
+// 'F' command handler elapsed time: 3 seconds
+// [Engine Memory]: 655 MB (+1196kb) [00:01:09]
+selectButton("PAResourceQtoS.RecustomizeCore_THIS_IP_PART_OF_BLOCK_DESIGN_OK", "OK"); // JButton (A, G)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), microblaze_0 : system_microblaze_0_0 (system_microblaze_0_0.xci)]", 8); // B (D, cl)
+// x (cl): Show IP Hierarchy: addNotify
+dismissDialog("Show IP Hierarchy"); // x (cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), rst_clk_wiz_0_100M : system_rst_clk_wiz_0_100M_0 (system_rst_clk_wiz_0_100M_0.xci)]", 12); // B (D, cl)
+// x (cl): Show IP Hierarchy: addNotify
+dismissDialog("Show IP Hierarchy"); // x (cl)
+// [GUI Memory]: 78 MB (+3388kb) [00:01:25]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_wrapper.v", 1); // k (j, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bs (cl):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_0 Adding cell -- xilinx.com:ip:microblaze:10.0 - microblaze_0 Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1 Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_0_100M Adding cell -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0 Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10 Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10 Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram Successfully read diagram <system> from BD file <C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/system.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 724 MB (+37910kb) [00:01:40]
+// TclEventType: RSB_CONNECTION_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 743 MB. GUI used memory: 54 MB. Current time: 8/8/20 1:17:50 PM CEST
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 919.824 ; gain = 72.109 
+// 'by' command handler elapsed time: 9 seconds
+// Elapsed time: 10 seconds
+dismissDialog("Open Block Design"); // bs (cl)
+// [Engine Memory]: 761 MB (+933kb) [00:01:44]
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// [GUI Memory]: 88 MB (+6138kb) [00:02:03]
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_interconnect_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /sys_clock_1 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 94 MB (+1823kb) [00:06:33]
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// Elapsed time: 469 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF (Q, cl)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /mdm_1_debug_sys_rst 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_interconnect_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_interconnect_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_interconnect_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_interconnect_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_interconnect_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_interconnect_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_interconnect_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_interconnect_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_interconnect_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_interconnect_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_peripheral_aresetn 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /microblaze_0_Clk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// Elapsed time: 110 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cl): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 18 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "vga_v1_0"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// Tcl Command: 'file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new 
+// Tcl Command: 'file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new'
+// Tcl Message: file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new 
+// Tcl Command: 'file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new'
+// Tcl Command: 'file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new'
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 30 seconds
+// Tcl Command: 'file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new'
+// Tcl Message: file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new 
+// Tcl Message: file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new 
+dismissDialog("Add Sources"); // c (cl)
+// Tcl Message: file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new 
+// Tcl Command: 'file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new'
+// bs (cl):  Add Sources  : addNotify
+// Tcl Message: file mkdir C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new 
+// Tcl Message: file mkdir {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new} 
+// Tcl Message: close [ open {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_v1_0.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_v1_0.v}} 
+// I (cl): Define Module: addNotify
+dismissDialog("Add Sources"); // bs (cl)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, "input", 1); // ab (O, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "input", 0, "Direction", 1); // ab (O, I)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I (cl)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_clk_wiz_0_100M_bus_struct_reset 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_v1_0 (vga_v1_0.v)]", 13, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_v1_0 (vga_v1_0.v)]", 13, false, false, false, false, false, true); // B (D, cl) - Double Click
+selectCodeEditor("vga_v1_0.v", 294, 282); // cd (w, cl)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("vga_v1_0.v", 294, 282); // cd (w, cl)
+selectCodeEditor("vga_v1_0.v", 99, 332); // cd (w, cl)
+typeControlKey((HResource) null, "vga_v1_0.v", 'v'); // cd (w, cl)
+selectCodeEditor("vga_v1_0.v", 183, 136); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_v1_0 (vga_v1_0.v)]", 13); // B (D, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 59 MB. Current time: 8/8/20 1:29:24 PM CEST
+// Elapsed time: 55 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), microblaze_0_axi_periph : system_microblaze_0_axi_periph_0 (system.v)]", 9); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), microblaze_0_axi_periph : system_microblaze_0_axi_periph_0 (system.v)]", 9); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), microblaze_0_local_memory : microblaze_0_local_memory_imp_OGE0N8 (system.v)]", 11); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), microblaze_0_local_memory : microblaze_0_local_memory_imp_OGE0N8 (system.v)]", 11); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 19); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 19); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1); // B (D, cl)
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_v1_0 (vga_v1_0.v), VGA_v1_0_VGA_inst : xil_defaultlib.VGA_v1_0_VGA]", 3, false, false, false, false, true, false); // B (D, cl) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, cl)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cl): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 396 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "VGA"); // X (N, F)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 61 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "VGA_v1_0_VGA"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 14 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "vga_timing"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 27 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "vga_background"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 30 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Microblaze_processor_wrapper"); // X (N, F)
+// Elapsed time: 10 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "MicroBlaze_processor_wrapper"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 559 seconds
+dismissDialog("Add Sources"); // c (cl)
+// Tcl Message: close [ open {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_background.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_background.v}} 
+// Tcl Message: close [ open {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/MicroBlaze_processor_wrapper.v} w ] 
+// TclEventType: FILE_SET_CHANGE
+// bs (cl):  Add Sources  : addNotify
+// Tcl Message: add_files {{C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/MicroBlaze_processor_wrapper.v}} 
+// Tcl Message: close [ open {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_timing.v} w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_timing.v}} 
+// Tcl Message: close [ open {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v} w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v}} 
+// I (cl): Define Modules: addNotify
+dismissDialog("Add Sources"); // bs (cl)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Modules"); // I (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 100 MB (+1371kb) [00:23:55]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 14 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 2); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v)]", 4); // B (D, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, MicroBlaze_processor_wrapper.v]", 2, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, MicroBlaze_processor_wrapper.v]", 2, false, false, false, false, false, true); // B (D, cl) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 144, 183); // cd (w, cl)
+typeControlKey((HResource) null, "MicroBlaze_processor_wrapper.v", 'v'); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MicroBlaze_processor_wrapper (MicroBlaze_processor_wrapper.v)]", 21); // B (D, cl)
+// [GUI Memory]: 107 MB (+1887kb) [00:25:02]
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, VGA_v1_0_VGA.v]", 2, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, VGA_v1_0_VGA.v]", 2, false, false, false, false, false, true); // B (D, cl) - Double Click
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "VGA_v1_0_VGA.v", 'v'); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 67 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 3, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 3, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 3, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), axi_gpio_0 : system_axi_gpio_0_0 (system_axi_gpio_0_0.xci)]", 6, false, false, false, false, false, true); // B (D, cl) - Double Click
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, vga_timing.v]", 2, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, vga_timing.v]", 2, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, vga_timing.v]", 2, false, false, false, false, false, true); // B (D, cl) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("vga_timing.v", 320, 65); // cd (w, cl)
+typeControlKey((HResource) null, "vga_timing.v", 'v'); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 113 MB (+308kb) [00:29:47]
+// Elapsed time: 377 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MicroBlaze_processor_wrapper (MicroBlaze_processor_wrapper.v), MicroBlaze_processor_i : xil_defaultlib.MicroBlaze_processor]", 19, false); // B (D, cl)
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cl): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 11 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "vga_draw_objects"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 16 seconds
+dismissDialog("Add Sources"); // c (cl)
+// Tcl Message: close [ open {C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_draw_objects.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_draw_objects.v}} 
+// I (cl): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_v1_0 (vga_v1_0.v), my_draw_objects : vga_draw_objects (vga_draw_objects.v)]", 17, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_v1_0 (vga_v1_0.v), my_draw_objects : vga_draw_objects (vga_draw_objects.v)]", 17, false, false, false, false, false, true); // B (D, cl) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("vga_draw_objects.v", 128, 193); // cd (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_v1_0 (vga_v1_0.v), my_draw_objects : vga_draw_objects (vga_draw_objects.v)]", 17, false); // B (D, cl)
+selectCodeEditor("vga_draw_objects.v", 356, 265); // cd (w, cl)
+typeControlKey((HResource) null, "vga_draw_objects.v", 'v'); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("vga_draw_objects.v", 356, 265); // cd (w, cl)
+selectCodeEditor("vga_draw_objects.v", 100, 209); // cd (w, cl)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 50 seconds
+selectCodeEditor("vga_draw_objects.v", 500, 69); // cd (w, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 21); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, vga_example.xdc]", 23, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, vga_example.xdc]", 23, false, false, false, false, false, true); // B (D, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 22, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 22, false, false, false, false, false, true); // B (D, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, vga_example.xdc]", 23, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, vga_example.xdc]", 23, false, false, false, false, false, true); // B (D, cl) - Double Click
+typeControlKey((HResource) null, "vga_example.xdc", 'v'); // cd (w, cl)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 41 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_v1_0 (vga_v1_0.v), VGA_v1_0_VGA_inst : VGA_v1_0_VGA (VGA_v1_0_VGA.v)]", 14, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_v1_0 (vga_v1_0.v), VGA_v1_0_VGA_inst : VGA_v1_0_VGA (VGA_v1_0_VGA.v)]", 14, false, false, false, false, false, true); // B (D, cl) - Double Click
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_v1_0 (vga_v1_0.v), my_timing : vga_timing (vga_timing.v)]", 15, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_v1_0 (vga_v1_0.v), my_timing : vga_timing (vga_timing.v)]", 15, false, false, false, false, false, true); // B (D, cl) - Double Click
+// Elapsed time: 135 seconds
+selectCodeEditor("vga_timing.v", 169, 166); // cd (w, cl)
+selectCodeEditor("vga_timing.v", 168, 184); // cd (w, cl)
+// Elapsed time: 13 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 35 seconds
+selectCodeEditor("vga_timing.v", 232, 146); // cd (w, cl)
+selectCodeEditor("vga_timing.v", 231, 147); // cd (w, cl)
+// Elapsed time: 72 seconds
+selectCodeEditor("vga_timing.v", 374, 150); // cd (w, cl)
+// Elapsed time: 26 seconds
+selectCodeEditor("vga_timing.v", 363, 153); // cd (w, cl)
+// Elapsed time: 52 seconds
+selectCodeEditor("vga_timing.v", 181, 217); // cd (w, cl)
+// Elapsed time: 18 seconds
+selectCodeEditor("vga_timing.v", 175, 162); // cd (w, cl)
+// [GUI Memory]: 120 MB (+1393kb) [00:43:11]
+selectCodeEditor("vga_timing.v", 315, 169); // cd (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 62 MB. Current time: 8/8/20 1:59:27 PM CEST
+selectCodeEditor("vga_timing.v", 215, 141); // cd (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 86 seconds
+selectCodeEditor("vga_timing.v", 91, 94); // cd (w, cl)
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u (O, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// x (cl): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cl):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // x (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Aug  8 14:01:33 2020] Launched synth_1... Run output will be captured here: C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bs (cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MicroBlaze_processor_wrapper (MicroBlaze_processor_wrapper.v), MicroBlaze_processor_i : xil_defaultlib.MicroBlaze_processor]", 19, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MicroBlaze_processor_wrapper (MicroBlaze_processor_wrapper.v), MicroBlaze_processor_i : xil_defaultlib.MicroBlaze_processor]", 19, false, false, false, false, false, true); // B (D, cl) - Double Click
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah (cl): Synthesis Completed: addNotify
+// Elapsed time: 118 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Sat Aug  8 14:03:39 2020] Launched impl_1... Run output will be captured here: C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MicroBlaze_processor_wrapper (MicroBlaze_processor_wrapper.v)]", 18, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MicroBlaze_processor_wrapper (MicroBlaze_processor_wrapper.v)]", 18, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Implementation Failed: addNotify
+// Elapsed time: 251 seconds
+dismissDialog("Implementation Failed"); // ah (cl)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF (Q, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-680] Path length exceeds 248-Byte maximum allowed by Windows: c:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/impl_1/{C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.cache/ip}/2017.3. Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.. ]", 90, false); // ah (O, cl)
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 63 MB. Current time: 8/8/20 2:37:00 PM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 58 MB. Current time: 8/8/20 3:06:57 PM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 58 MB. Current time: 8/8/20 3:36:58 PM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 60 MB. Current time: 8/8/20 4:07:01 PM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 58 MB. Current time: 8/8/20 5:34:08 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 59 MB. Current time: 8/8/20 7:14:33 PM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 59 MB. Current time: 8/8/20 7:44:12 PM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 59 MB. Current time: 8/8/20 8:14:15 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 58 MB. Current time: 8/8/20 9:20:02 PM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 58 MB. Current time: 8/9/20 12:02:58 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 59 MB. Current time: 8/9/20 3:27:45 AM CEST
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 58 MB. Current time: 8/9/20 5:00:26 PM CEST
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 59 MB. Current time: 8/9/20 5:29:58 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 59 MB. Current time: 8/9/20 8:43:17 PM CEST
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 58 MB. Current time: 8/9/20 10:09:28 PM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 60 MB. Current time: 8/9/20 10:39:13 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 59 MB. Current time: 8/10/20 12:17:40 AM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 59 MB. Current time: 8/10/20 3:17:52 AM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (MainWindowUtils Timer) is taking too long to process. Increasing delay to 11000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 60 MB. Current time: 8/10/20 9:30:37 AM CEST
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 59 MB. Current time: 8/10/20 10:00:31 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 58 MB. Current time: 8/10/20 11:18:01 AM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 59 MB. Current time: 8/10/20 11:47:37 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 58 MB. Current time: 8/10/20 3:02:03 PM CEST
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (MainWindowUtils Timer) is taking too long to process. Increasing delay to 12000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (MainWindowUtils Timer) is taking too long to process. Increasing delay to 13000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (MainWindowUtils Timer) is taking too long to process. Increasing delay to 14000 ms.
+// WARNING: HTimer (MainWindowUtils Timer) is taking too long to process. Increasing delay to 15000 ms.
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 59 MB. Current time: 8/10/20 5:08:07 PM CEST
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 58 MB. Current time: 8/10/20 8:16:12 PM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// [GUI Memory]: 130 MB (+4220kb) [55:06:53]
+// [GUI Memory]: 140 MB (+3243kb) [55:07:23]
+// [GUI Memory]: 149 MB (+1981kb) [55:09:53]
+// Elapsed time: 195507 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), microblaze_0_local_memory : microblaze_0_local_memory_imp_OGE0N8 (system.v)]", 11, true, false, false, false, true, false); // B (D, cl) - Popup Trigger - Node
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 514, 255); // cd (w, cl)
+// Elapsed time: 59 seconds
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 199, 450); // cd (w, cl)
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 315, 468); // cd (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 324, 332); // cd (w, cl)
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 154, 423); // cd (w, cl)
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 116, 435); // cd (w, cl)
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 146, 427); // cd (w, cl)
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 199, 300); // cd (w, cl)
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 194, 447); // cd (w, cl)
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 436, 289); // cd (w, cl)
+// Elapsed time: 50 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), microblaze_0_axi_periph : system_microblaze_0_axi_periph_0 (system.v)]", 9); // B (D, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd), system (system.v), microblaze_0_axi_periph : system_microblaze_0_axi_periph_0 (system.v)]", 9); // B (D, cl)
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MicroBlaze_processor_wrapper (MicroBlaze_processor_wrapper.v)]", 7, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MicroBlaze_processor_wrapper (MicroBlaze_processor_wrapper.v)]", 7, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_wrapper.v", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MicroBlaze_processor_wrapper.v", 4); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_wrapper.v", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MicroBlaze_processor_wrapper.v", 4); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_wrapper.v", 2); // k (j, cl)
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MicroBlaze_processor_wrapper.v", 4); // k (j, cl)
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 86, 350); // cd (w, cl)
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 86, 324); // cd (w, cl)
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 87, 300); // cd (w, cl)
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 87, 329); // cd (w, cl)
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 81, 442); // cd (w, cl)
+selectCodeEditor("MicroBlaze_processor_wrapper.v", 104, 441); // cd (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_v1_0 (vga_v1_0.v), my_timing : vga_timing (vga_timing.v)]", 4, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_v1_0 (vga_v1_0.v), my_timing : vga_timing (vga_timing.v)]", 4, false, false, false, false, false, true); // B (D, cl) - Double Click
+selectCodeEditor("vga_timing.v", 372, 261); // cd (w, cl)
+selectCodeEditor("vga_timing.v", 188, 223); // cd (w, cl)
+selectCodeEditor("vga_timing.v", 167, 205); // cd (w, cl)
+selectCodeEditor("vga_timing.v", 407, 271); // cd (w, cl)
+selectCodeEditor("vga_timing.v", 407, 271, false, false, false, false, true); // cd (w, cl) - Double Click
+selectCodeEditor("vga_timing.v", 411, 291); // cd (w, cl)
+// Elapsed time: 29 seconds
+selectCodeEditor("vga_timing.v", 111, 214); // cd (w, cl)
+selectCodeEditor("vga_timing.v", 105, 214); // cd (w, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("vga_timing.v", 360, 394); // cd (w, cl)
+selectCodeEditor("vga_timing.v", 400, 384); // cd (w, cl)
+selectCodeEditor("vga_timing.v", 403, 375); // cd (w, cl)
+selectCodeEditor("vga_timing.v", 336, 225); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 157 MB (+1014kb) [55:18:18]
+// Elapsed time: 537 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_v1_0 (vga_v1_0.v)]", 2, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_v1_0 (vga_v1_0.v)]", 2, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VGA_v1_0 (vga_v1_0.v)]", 2, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
