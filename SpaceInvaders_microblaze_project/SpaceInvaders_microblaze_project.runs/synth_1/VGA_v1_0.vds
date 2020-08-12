@@ -1,0 +1,816 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Tue Aug 11 21:14:43 2020
+# Process ID: 13460
+# Current directory: C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/synth_1
+# Command line: vivado.exe -log VGA_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source VGA_v1_0.tcl
+# Log file: C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/synth_1/VGA_v1_0.vds
+# Journal file: C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source VGA_v1_0.tcl -notrace
+Command: synth_design -top VGA_v1_0 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19348 
+WARNING: [Synth 8-1958] event expressions must result in a singular type [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:604]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 362.941 ; gain = 104.219
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'VGA_v1_0' [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_v1_0.v:23]
+	Parameter C_VGA_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_VGA_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_VGA_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_VGA_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_VGA_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_VGA_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_VGA_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_VGA_BUSER_WIDTH bound to: 0 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_v1_0.v:175]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_v1_0.v:175]
+INFO: [Synth 8-638] synthesizing module 'VGA_v1_0_VGA' [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:4]
+	Parameter C_S_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_AWUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_ARUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_WUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_RUSER_WIDTH bound to: 0 - type: integer 
+	Parameter C_S_AXI_BUSER_WIDTH bound to: 0 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 3 - type: integer 
+	Parameter USER_NUM_MEM bound to: 1 - type: integer 
+WARNING: [Synth 8-3848] Net vs in module/entity VGA_v1_0_VGA does not have driver. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:31]
+WARNING: [Synth 8-3848] Net hs in module/entity VGA_v1_0_VGA does not have driver. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:32]
+WARNING: [Synth 8-3848] Net r in module/entity VGA_v1_0_VGA does not have driver. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:33]
+WARNING: [Synth 8-3848] Net g in module/entity VGA_v1_0_VGA does not have driver. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:34]
+WARNING: [Synth 8-3848] Net b in module/entity VGA_v1_0_VGA does not have driver. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:35]
+INFO: [Synth 8-256] done synthesizing module 'VGA_v1_0_VGA' (1#1) [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:4]
+WARNING: [Synth 8-350] instance 'VGA_v1_0_VGA_inst' of module 'VGA_v1_0_VGA' requires 51 connections, but only 46 given [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_v1_0.v:116]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (2#1) [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:19468]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_BASE' [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25877]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 25.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_BASE' (3#1) [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:25877]
+INFO: [Synth 8-638] synthesizing module 'BUFH' [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'BUFH' (4#1) [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-638] synthesizing module 'BUFGCE' [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617]
+	Parameter CE_TYPE bound to: SYNC - type: string 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_I_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'BUFGCE' (5#1) [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:617]
+INFO: [Synth 8-638] synthesizing module 'vga_timing' [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_timing.v:13]
+INFO: [Synth 8-256] done synthesizing module 'vga_timing' (6#1) [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_timing.v:13]
+INFO: [Synth 8-638] synthesizing module 'vga_background' [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_background.v:23]
+INFO: [Synth 8-256] done synthesizing module 'vga_background' (7#1) [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_background.v:23]
+INFO: [Synth 8-638] synthesizing module 'vga_draw_objects' [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_draw_objects.v:23]
+	Parameter WIDTH bound to: 10 - type: integer 
+	Parameter HEIGHT bound to: 100 - type: integer 
+	Parameter COLOR bound to: 12'b111111111111 
+	Parameter XPOS bound to: 395 - type: integer 
+	Parameter YPOS bound to: 250 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'vga_draw_objects' (8#1) [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_draw_objects.v:23]
+WARNING: [Synth 8-3848] Net vga_aclk in module/entity VGA_v1_0 does not have driver. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_v1_0.v:117]
+INFO: [Synth 8-256] done synthesizing module 'VGA_v1_0' (9#1) [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_v1_0.v:23]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port vs
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port hs
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port r[3]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port r[2]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port r[1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port r[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port g[3]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port g[2]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port g[1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port g[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port b[3]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port b[2]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port b[1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port b[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWSIZE[2]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWSIZE[1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWSIZE[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWLOCK
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWCACHE[3]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWCACHE[2]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWCACHE[1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWCACHE[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWQOS[3]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWQOS[2]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWQOS[1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWQOS[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWREGION[3]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWREGION[2]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWREGION[1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWREGION[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWUSER[-1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_AWUSER[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_WUSER[-1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_WUSER[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARSIZE[2]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARSIZE[1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARSIZE[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARLOCK
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARCACHE[3]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARCACHE[2]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARCACHE[1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARCACHE[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARPROT[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARQOS[3]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARQOS[2]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARQOS[1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARQOS[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARREGION[3]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARREGION[2]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARREGION[1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARREGION[0]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARUSER[-1]
+WARNING: [Synth 8-3331] design VGA_v1_0_VGA has unconnected port S_AXI_ARUSER[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 390.621 ; gain = 131.898
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin VGA_v1_0_VGA_inst:S_AXI_ACLK to constant 0 [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_v1_0.v:116]
+WARNING: [Synth 8-3295] tying undriven pin my_background:rst to constant 0 [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_v1_0.v:221]
+WARNING: [Synth 8-3295] tying undriven pin my_draw_objects:rst to constant 0 [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_v1_0.v:242]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 390.621 ; gain = 131.898
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/vga_constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/vga_constraints.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/vga_constraints.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/vga_constraints.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/vga_constraints.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/vga_constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/vga_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/VGA_v1_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/VGA_v1_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'button[0]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'button[0]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'button[1]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'button[1]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'button[2]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'button[2]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'button[3]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'button[3]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/constrs_1/imports/spaceinvaders_project/Basys3_constraints.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  BUFGCE => BUFGCTRL: 1 instances
+  MMCME2_BASE => MMCME2_ADV: 1 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 698.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'axi_ruser_reg[-1:0]' into 'axi_buser_reg[-1:0]' [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:240]
+WARNING: [Synth 8-6014] Unused sequential element axi_ruser_reg was removed.  [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:240]
+WARNING: [Synth 8-6014] Unused sequential element axi_awlen_cntr_reg was removed.  [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:293]
+WARNING: [Synth 8-6014] Unused sequential element axi_arlen_cntr_reg was removed.  [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:450]
+INFO: [Synth 8-5546] ROM "vcounter_nxt" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'rgb_out_nxt_reg' [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_draw_objects.v:81]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 2     
+	   3 Input      6 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 6     
+	                8 Bit    Registers := 11    
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 16    
++---RAMs : 
+	              128 Bit         RAMs := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   4 Input      6 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 17    
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module VGA_v1_0 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module VGA_v1_0_VGA 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
+	   3 Input      6 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 10    
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 8     
++---RAMs : 
+	              128 Bit         RAMs := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   4 Input      6 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 16    
+	   4 Input      1 Bit        Muxes := 2     
+Module vga_timing 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module vga_background 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
+Module vga_draw_objects 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'VGA_v1_0_VGA_inst/axi_awlen_reg[7:0]' into 'VGA_v1_0_VGA_inst/axi_awlen_reg[7:0]' [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:244]
+INFO: [Synth 8-4471] merging register 'VGA_v1_0_VGA_inst/axi_arlen_reg[7:0]' into 'VGA_v1_0_VGA_inst/axi_arlen_reg[7:0]' [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:452]
+WARNING: [Synth 8-6014] Unused sequential element VGA_v1_0_VGA_inst/axi_awlen_reg was removed.  [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:244]
+WARNING: [Synth 8-6014] Unused sequential element VGA_v1_0_VGA_inst/axi_arlen_reg was removed.  [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:452]
+WARNING: [Synth 8-6014] Unused sequential element my_draw_objects/hcount_out_reg was removed.  [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_draw_objects.v:59]
+WARNING: [Synth 8-6014] Unused sequential element my_draw_objects/hblnk_out_reg was removed.  [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_draw_objects.v:56]
+WARNING: [Synth 8-6014] Unused sequential element my_draw_objects/vcount_out_reg was removed.  [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_draw_objects.v:60]
+WARNING: [Synth 8-6014] Unused sequential element my_draw_objects/vblnk_out_reg was removed.  [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_draw_objects.v:57]
+INFO: [Synth 8-5546] ROM "my_timing/vcounter_nxt" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element my_timing/vcounter_reg was removed.  [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/vga_timing.v:72]
+WARNING: [Synth 8-6014] Unused sequential element VGA_v1_0_VGA_inst/axi_arlen_cntr_reg was removed.  [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:450]
+WARNING: [Synth 8-6014] Unused sequential element VGA_v1_0_VGA_inst/axi_awlen_cntr_reg was removed.  [C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/new/VGA_v1_0_VGA.v:293]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awsize[2]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awsize[1]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awsize[0]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awlock
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awcache[3]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awcache[2]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awcache[1]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awcache[0]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awprot[2]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awprot[1]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awprot[0]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awqos[3]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awqos[2]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awqos[1]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awqos[0]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awregion[3]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awregion[2]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awregion[1]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awregion[0]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awuser[-1]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_awuser[0]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_wuser[-1]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_wuser[0]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arsize[2]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arsize[1]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arsize[0]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arlock
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arcache[3]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arcache[2]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arcache[1]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arcache[0]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arprot[2]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arprot[1]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arprot[0]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arqos[3]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arqos[2]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arqos[1]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arqos[0]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arregion[3]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arregion[2]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arregion[1]
+WARNING: [Synth 8-3331] design VGA_v1_0 has unconnected port vga_arregion[0]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'my_background/rgb_out_reg[0]' (FDC) to 'my_background/rgb_out_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_background/rgb_out_reg[1]' (FDC) to 'my_background/rgb_out_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_background/rgb_out_reg[2]' (FDC) to 'my_background/rgb_out_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_background/rgb_out_reg[3]' (FDC) to 'my_background/rgb_out_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_background/rgb_out_reg[4]' (FDC) to 'my_background/rgb_out_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_background/rgb_out_reg[5]' (FDC) to 'my_background/rgb_out_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_background/rgb_out_reg[6]' (FDC) to 'my_background/rgb_out_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_background/rgb_out_reg[7]' (FDC) to 'my_background/rgb_out_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_background/rgb_out_reg[8]' (FDC) to 'my_background/rgb_out_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_background/rgb_out_reg[9]' (FDC) to 'my_background/rgb_out_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_background/rgb_out_reg[10]' (FDC) to 'my_background/rgb_out_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\my_background/rgb_out_reg[11] )
+INFO: [Synth 8-3886] merging instance 'VGA_v1_0_VGA_inst/axi_rresp_reg[0]' (FDRE) to 'VGA_v1_0_VGA_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\VGA_v1_0_VGA_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'VGA_v1_0_VGA_inst/axi_buser_reg[0]' (FDRE) to 'VGA_v1_0_VGA_inst/axi_buser_reg[-1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\VGA_v1_0_VGA_inst/axi_buser_reg[-1] )
+INFO: [Synth 8-3886] merging instance 'VGA_v1_0_VGA_inst/axi_bresp_reg[0]' (FDRE) to 'VGA_v1_0_VGA_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\VGA_v1_0_VGA_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_nxt_reg[0]' (LDP) to 'my_draw_objects/rgb_out_nxt_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_nxt_reg[1]' (LDP) to 'my_draw_objects/rgb_out_nxt_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_nxt_reg[2]' (LDP) to 'my_draw_objects/rgb_out_nxt_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_nxt_reg[3]' (LDP) to 'my_draw_objects/rgb_out_nxt_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_nxt_reg[4]' (LDP) to 'my_draw_objects/rgb_out_nxt_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_nxt_reg[5]' (LDP) to 'my_draw_objects/rgb_out_nxt_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_nxt_reg[6]' (LDP) to 'my_draw_objects/rgb_out_nxt_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_nxt_reg[7]' (LDP) to 'my_draw_objects/rgb_out_nxt_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_nxt_reg[8]' (LDP) to 'my_draw_objects/rgb_out_nxt_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_nxt_reg[9]' (LDP) to 'my_draw_objects/rgb_out_nxt_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_nxt_reg[10]' (LDP) to 'my_draw_objects/rgb_out_nxt_reg[11]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_reg[0]' (FDC) to 'my_draw_objects/rgb_out_reg[10]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_reg[1]' (FDC) to 'my_draw_objects/rgb_out_reg[10]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_reg[2]' (FDC) to 'my_draw_objects/rgb_out_reg[10]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_reg[3]' (FDC) to 'my_draw_objects/rgb_out_reg[10]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_reg[4]' (FDC) to 'my_draw_objects/rgb_out_reg[10]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_reg[5]' (FDC) to 'my_draw_objects/rgb_out_reg[10]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_reg[6]' (FDC) to 'my_draw_objects/rgb_out_reg[10]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_reg[7]' (FDC) to 'my_draw_objects/rgb_out_reg[10]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_reg[8]' (FDC) to 'my_draw_objects/rgb_out_reg[10]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_reg[9]' (FDC) to 'my_draw_objects/rgb_out_reg[10]'
+INFO: [Synth 8-3886] merging instance 'my_draw_objects/rgb_out_reg[10]' (FDC) to 'my_draw_objects/rgb_out_reg[11]'
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_bresp_reg[1]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_buser_reg[-1]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awaddr_reg[1]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awaddr_reg[0]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_araddr_reg[1]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_araddr_reg[0]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_rresp_reg[1]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (my_background/rgb_out_reg[11]) is unused and will be removed from module VGA_v1_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+-------------------------------------------------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object                                                  | Inference | Size (Depth x Width) | Primitives     | 
++------------+-------------------------------------------------------------+-----------+----------------------+----------------+
+|VGA_v1_0    | VGA_v1_0_VGA_inst/BRAM_GEN[0].BYTE_BRAM_GEN[0].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
+|VGA_v1_0    | VGA_v1_0_VGA_inst/BRAM_GEN[0].BYTE_BRAM_GEN[1].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
+|VGA_v1_0    | VGA_v1_0_VGA_inst/BRAM_GEN[0].BYTE_BRAM_GEN[2].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
+|VGA_v1_0    | VGA_v1_0_VGA_inst/BRAM_GEN[0].BYTE_BRAM_GEN[3].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
++------------+-------------------------------------------------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+-------------------------------------------------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object                                                  | Inference | Size (Depth x Width) | Primitives     | 
++------------+-------------------------------------------------------------+-----------+----------------------+----------------+
+|VGA_v1_0    | VGA_v1_0_VGA_inst/BRAM_GEN[0].BYTE_BRAM_GEN[0].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
+|VGA_v1_0    | VGA_v1_0_VGA_inst/BRAM_GEN[0].BYTE_BRAM_GEN[1].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
+|VGA_v1_0    | VGA_v1_0_VGA_inst/BRAM_GEN[0].BYTE_BRAM_GEN[2].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
+|VGA_v1_0    | VGA_v1_0_VGA_inst/BRAM_GEN[0].BYTE_BRAM_GEN[3].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
++------------+-------------------------------------------------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_wready_reg) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awv_awr_flag_reg) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_reg[7]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_reg[6]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_reg[5]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_reg[4]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_reg[3]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_reg[2]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_reg[1]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_reg[0]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_rvalid_reg) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arready_reg) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arv_arr_flag_reg) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awready_reg) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_bvalid_reg) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awburst_reg[1]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awburst_reg[0]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_reg[7]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_reg[6]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_reg[5]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_reg[4]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_reg[3]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_reg[2]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_reg[1]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_reg[0]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awaddr_reg[5]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awaddr_reg[4]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awaddr_reg[3]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awaddr_reg[2]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arburst_reg[1]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arburst_reg[0]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_araddr_reg[5]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_araddr_reg[4]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_araddr_reg[3]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_araddr_reg[2]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_rlast_reg) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_cntr_reg[7]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_cntr_reg[6]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_cntr_reg[5]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_cntr_reg[4]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_cntr_reg[3]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_cntr_reg[2]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_cntr_reg[1]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_arlen_cntr_reg[0]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_cntr_reg[7]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_cntr_reg[6]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_cntr_reg[5]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_cntr_reg[4]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_cntr_reg[3]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_cntr_reg[2]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_cntr_reg[1]) is unused and will be removed from module VGA_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_v1_0_VGA_inst/axi_awlen_cntr_reg[0]) is unused and will be removed from module VGA_v1_0.
+INFO: [Synth 8-3886] merging instance 'my_background/hcount_out_reg[10]' (FDC) to 'my_background/hblnk_out_reg'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |BUFGCE      |     1|
+|2     |BUFH        |     1|
+|3     |LUT1        |     2|
+|4     |LUT2        |     6|
+|5     |LUT3        |     6|
+|6     |LUT4        |     5|
+|7     |LUT5        |     9|
+|8     |LUT6        |    15|
+|9     |MMCME2_BASE |     1|
+|10    |FDRE        |    58|
+|11    |LDP         |     1|
+|12    |IBUF        |     3|
+|13    |OBUF        |    62|
++------+------------+------+
+
+Report Instance Areas: 
++------+------------------+-----------------+------+
+|      |Instance          |Module           |Cells |
++------+------------------+-----------------+------+
+|1     |top               |                 |   170|
+|2     |  my_background   |vga_background   |    32|
+|3     |  my_draw_objects |vga_draw_objects |     4|
+|4     |  my_timing       |vga_timing       |    58|
++------+------------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 698.602 ; gain = 439.879
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 117 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 698.602 ; gain = 131.898
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 698.602 ; gain = 439.879
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. clk_ibuf 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  BUFGCE => BUFGCTRL: 1 instances
+  LDP => LDPE: 1 instances
+  MMCME2_BASE => MMCME2_ADV: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+81 Infos, 227 Warnings, 42 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 698.602 ; gain = 453.406
+INFO: [Common 17-1381] The checkpoint 'C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/synth_1/VGA_v1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file VGA_v1_0_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 698.602 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 11 21:15:18 2020...

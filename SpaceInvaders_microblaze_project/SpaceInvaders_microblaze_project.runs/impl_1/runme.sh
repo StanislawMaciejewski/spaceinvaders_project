@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=D:/vivado/SDK/2017.3/bin;D:/vivado/Vivado/2017.3/ids_lite/ISE/bin/nt64;D:/vivado/Vivado/2017.3/ids_lite/ISE/lib/nt64:D:/vivado/Vivado/2017.3/bin
+  PATH=C:/Xilinx/SDK/2017.3/bin;C:/Xilinx/Vivado/2017.3/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.3/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2017.3/bin
 else
-  PATH=D:/vivado/SDK/2017.3/bin;D:/vivado/Vivado/2017.3/ids_lite/ISE/bin/nt64;D:/vivado/Vivado/2017.3/ids_lite/ISE/lib/nt64:D:/vivado/Vivado/2017.3/bin:$PATH
+  PATH=C:/Xilinx/SDK/2017.3/bin;C:/Xilinx/Vivado/2017.3/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.3/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2017.3/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/impl_1'
+HD_PWD='C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log system_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
+EAStep vivado -log VGA_v1_0.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source VGA_v1_0.tcl -notrace
 
 

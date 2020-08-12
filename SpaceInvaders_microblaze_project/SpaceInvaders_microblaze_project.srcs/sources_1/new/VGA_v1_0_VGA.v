@@ -27,13 +27,13 @@
 	)
 	(
 		// Users to add ports here
-		/*
+		
         output reg vs,
         output reg hs,
         output reg [3:0] r,
         output reg [3:0] g,
         output reg [3:0] b,
-        */
+        
 		// User ports ends
 		// Do not modify the ports beyond this line
 

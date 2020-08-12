@@ -2,11 +2,11 @@
 # Vivado v2017.3 (64-bit)
 # SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
 # IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
-# Start of session at: Sat Aug  8 14:03:48 2020
-# Process ID: 13508
-# Current directory: C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/impl_1
-# Command line: vivado.exe -log system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
-# Log file: C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/impl_1/system_wrapper.vdi
-# Journal file: C:/Users/ANNA/Desktop/projekt cyfra/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/impl_1\vivado.jou
+# Start of session at: Tue Aug 11 21:15:39 2020
+# Process ID: 11388
+# Current directory: C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/impl_1
+# Command line: vivado.exe -log VGA_v1_0.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source VGA_v1_0.tcl -notrace
+# Log file: C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/impl_1/VGA_v1_0.vdi
+# Journal file: C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
-source system_wrapper.tcl -notrace
+source VGA_v1_0.tcl -notrace

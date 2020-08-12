@@ -1,0 +1,53 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
+| Date         : Tue Aug 11 21:16:00 2020
+| Host         : DESKTOP-GG9V6KE running 64-bit major release  (build 9200)
+| Command      : report_drc -file VGA_v1_0_drc_opted.rpt -pb VGA_v1_0_drc_opted.pb -rpx VGA_v1_0_drc_opted.rpx
+| Design       : VGA_v1_0
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 3
++----------+------------------+----------------------------------------------+------------+
+| Rule     | Severity         | Description                                  | Violations |
++----------+------------------+----------------------------------------------+------------+
+| REQP-123 | Error            | connects_CLKINSEL_VCC_connects_CLKIN1_ACTIVE | 1          |
+| NSTD-1   | Critical Warning | Unspecified I/O Standard                     | 1          |
+| UCIO-1   | Critical Warning | Unconstrained Logical Port                   | 1          |
++----------+------------------+----------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+REQP-123#1 Error
+connects_CLKINSEL_VCC_connects_CLKIN1_ACTIVE  
+clk_in_mmcme2: The MMCME2_ADV with CLKINSEL tied high requires the CLKIN1 pin to be active.
+Related violations: <none>
+
+NSTD-1#1 Critical Warning
+Unspecified I/O Standard  
+50 out of 64 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user assigned specific value. This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all I/O standards. This design will fail to generate a bitstream unless all logical ports have a user specified I/O standard value defined. To allow bitstream creation with unspecified I/O standard values (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks NSTD-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. Problem ports: vga_arid[0], vga_awid[0], vga_bid[0], vga_bresp[1:0], vga_buser[-1:0], vga_rdata[31:0], vga_rid[0], vga_rresp[1:0], vga_ruser[-1:0], vga_arready, vga_awready, vga_bvalid, vga_rlast, vga_rvalid, vga_wready (the first 15 of 15 listed).
+Related violations: <none>
+
+UCIO-1#1 Critical Warning
+Unconstrained Logical Port  
+50 out of 64 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: vga_arid[0], vga_awid[0], vga_bid[0], vga_bresp[1:0], vga_buser[-1:0], vga_rdata[31:0], vga_rid[0], vga_rresp[1:0], vga_ruser[-1:0], vga_arready, vga_awready, vga_bvalid, vga_rlast, vga_rvalid, vga_wready (the first 15 of 15 listed).
+Related violations: <none>
+
+

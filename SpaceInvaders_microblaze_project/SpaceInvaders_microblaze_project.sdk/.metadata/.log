@@ -2950,3 +2950,9 @@ Writing a 1 to this bit position clears the receive FIFO
 
 !ENTRY com.xilinx.sdk.utils 0 0 2020-07-29 18:00:53.390
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-11 22:37:26.576
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-103
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-08-11 22:37:26.597
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-103

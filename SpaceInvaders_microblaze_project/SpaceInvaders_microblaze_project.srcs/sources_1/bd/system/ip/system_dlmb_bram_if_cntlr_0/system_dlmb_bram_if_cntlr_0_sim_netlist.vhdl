@@ -1,10 +1,10 @@
 -- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
--- Date        : Wed Jul 29 17:49:26 2020
+-- Date        : Thu Jul 23 12:26:09 2020
 -- Host        : DESKTOP-GG9V6KE running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               C:/Projekt/spaceinvaders_project/SpaceInvaders_microblaze_project/SpaceInvaders_microblaze_project.srcs/sources_1/bd/system/ip/system_dlmb_bram_if_cntlr_0/system_dlmb_bram_if_cntlr_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top system_dlmb_bram_if_cntlr_0 -prefix
+--               system_dlmb_bram_if_cntlr_0_ system_dlmb_bram_if_cntlr_0_sim_netlist.vhdl
 -- Design      : system_dlmb_bram_if_cntlr_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -121,7 +121,7 @@ entity system_dlmb_bram_if_cntlr_0_lmb_bram_if_cntlr is
   attribute C_LMB_DWIDTH : integer;
   attribute C_LMB_DWIDTH of system_dlmb_bram_if_cntlr_0_lmb_bram_if_cntlr : entity is 32;
   attribute C_MASK : string;
-  attribute C_MASK of system_dlmb_bram_if_cntlr_0_lmb_bram_if_cntlr : entity is "64'b0000000000000000000000000000000001000000000000000000000000000000";
+  attribute C_MASK of system_dlmb_bram_if_cntlr_0_lmb_bram_if_cntlr : entity is "64'b0000000000000000000000000000000000000000001000000000000000000000";
   attribute C_MASK1 : string;
   attribute C_MASK1 of system_dlmb_bram_if_cntlr_0_lmb_bram_if_cntlr : entity is "64'b0000000000000000000000000000000000000000100000000000000000000000";
   attribute C_MASK2 : string;
@@ -142,8 +142,6 @@ entity system_dlmb_bram_if_cntlr_0_lmb_bram_if_cntlr is
   attribute C_UE_FAILING_REGISTERS of system_dlmb_bram_if_cntlr_0_lmb_bram_if_cntlr : entity is 0;
   attribute C_WRITE_ACCESS : integer;
   attribute C_WRITE_ACCESS of system_dlmb_bram_if_cntlr_0_lmb_bram_if_cntlr : entity is 2;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of system_dlmb_bram_if_cntlr_0_lmb_bram_if_cntlr : entity is "lmb_bram_if_cntlr";
 end system_dlmb_bram_if_cntlr_0_lmb_bram_if_cntlr;
 
 architecture STRUCTURE of system_dlmb_bram_if_cntlr_0_lmb_bram_if_cntlr is
@@ -337,7 +335,7 @@ begin
     )
         port map (
       I0 => LMB_WriteStrobe,
-      I1 => \^lmb_abus\(1),
+      I1 => \^lmb_abus\(10),
       I2 => LMB_BE(0),
       O => BRAM_WEN_A(0)
     );
@@ -346,7 +344,7 @@ begin
       INIT => X"40"
     )
         port map (
-      I0 => \^lmb_abus\(1),
+      I0 => \^lmb_abus\(10),
       I1 => LMB_WriteStrobe,
       I2 => LMB_BE(1),
       O => BRAM_WEN_A(1)
@@ -356,7 +354,7 @@ begin
       INIT => X"40"
     )
         port map (
-      I0 => \^lmb_abus\(1),
+      I0 => \^lmb_abus\(10),
       I1 => LMB_WriteStrobe,
       I2 => LMB_BE(2),
       O => BRAM_WEN_A(2)
@@ -366,7 +364,7 @@ begin
       INIT => X"40"
     )
         port map (
-      I0 => \^lmb_abus\(1),
+      I0 => \^lmb_abus\(10),
       I1 => LMB_WriteStrobe,
       I2 => LMB_BE(3),
       O => BRAM_WEN_A(3)
@@ -380,7 +378,7 @@ GND: unisim.vcomponents.GND
       INIT => X"1"
     )
         port map (
-      I0 => \^lmb_abus\(1),
+      I0 => \^lmb_abus\(10),
       I1 => LMB_Rst,
       O => \No_ECC.Sl_Rdy_i_1_n_0\
     );
@@ -512,7 +510,7 @@ architecture STRUCTURE of system_dlmb_bram_if_cntlr_0 is
   attribute C_LMB_DWIDTH : integer;
   attribute C_LMB_DWIDTH of U0 : label is 32;
   attribute C_MASK : string;
-  attribute C_MASK of U0 : label is "64'b0000000000000000000000000000000001000000000000000000000000000000";
+  attribute C_MASK of U0 : label is "64'b0000000000000000000000000000000000000000001000000000000000000000";
   attribute C_MASK1 : string;
   attribute C_MASK1 of U0 : label is "64'b0000000000000000000000000000000000000000100000000000000000000000";
   attribute C_MASK2 : string;

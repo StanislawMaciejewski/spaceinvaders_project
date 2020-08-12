@@ -94,3 +94,4 @@ con
 ----------------End of Script----------------
 
 18:00:53 INFO  : Launch script is exported to file 'C:\Projekt\spaceinvaders_project\SpaceInvaders_microblaze_project\SpaceInvaders_microblaze_project.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_hello_world.elf_on_local.tcl'
+22:37:26 INFO  : Disconnected from the channel tcfchan#1.
